@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using these metadata."
+title: "mapvalid: spatial validation and area of applicability for machine-learning maps"
+type: software
+authors:
+  - family-names: "Pérez Cicilia"
+    given-names: "José Pablo"
+repository-code: "https://github.com/jpsicilia/mapvalid"
+license: GPL-3.0-or-later
+keywords:
+  - spatial cross-validation
+  - area of applicability
+  - map validation
+  - remote sensing

@@ -1,0 +1,58 @@
+[build-system]
+requires = ["hatchling>=1.27"]
+build-backend = "hatchling.build"
+
+[project]
+name = "mapvalid"
+version = "0.0.1.dev0"
+description = "Spatial validation (NNDM, kNNDM) and area of applicability (AOA) for machine-learning maps."
+readme = "README.md"
+license = "GPL-3.0-or-later"
+license-files = ["LICENSE"]
+authors = [{ name = "José Pablo Pérez Cicilia" }]
+requires-python = ">=3.11"
+dependencies = [
+  "numpy>=1.26",
+  "scipy>=1.11",
+  "scikit-learn>=1.4",
+]
+keywords = [
+  "spatial cross-validation",
+  "area of applicability",
+  "map validation",
+  "remote sensing",
+  "machine learning",
+]
+classifiers = [
+  "Development Status :: 1 - Planning",
+  "Intended Audience :: Science/Research",
+  "Programming Language :: Python :: 3",
+  "Topic :: Scientific/Engineering :: GIS",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "pytest-cov>=5", "ruff>=0.16", "pre-commit>=4"]
+
+[project.urls]
+Repository = "https://github.com/jpsicilia/mapvalid"
+Issues = "https://github.com/jpsicilia/mapvalid/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/mapvalid"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+
+[tool.ruff]
+line-length = 88
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP", "NPY", "D"]
+
+[tool.ruff.lint.pydocstyle]
+convention = "numpy"
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["D"]

@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+
+# Tools
+.pytest_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+.ipynb_checkpoints/
+
+# Secrets
+.env
+
+# Heavy data: never commit rasters or archives
+*.tif
+*.tiff
+*.nc
+*.zip
+*.h5
+data/
+
+# OS and editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
