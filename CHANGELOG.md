@@ -9,3 +9,8 @@ and the project uses [Semantic Versioning](https://semver.org/).
 ### Added
 
 - Initial project structure, continuous integration and design decision records.
+
+### Changed
+
+- Implementation order changed: AOA first, then NNDM and kNNDM (decision 0006).
+- Updated citations to the published versions of the kNNDM and NNDM papers.

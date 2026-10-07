@@ -28,8 +28,10 @@ It is not affiliated with the CAST authors.
 
 | Version | Content |
 |---------|---------|
-| 0.1.0 | NNDM, kNNDM (scikit-learn compatible splitters), distance diagnostics |
-| 0.2.0 | Dissimilarity index, AOA and local data point density; raster support via xarray |
+| 0.1.0 | Dissimilarity index and AOA (block-wise processing of large rasters), NNDM, kNNDM (scikit-learn compatible splitters), distance diagnostics |
+| 0.2.0 | Local data point density (LPD) |
+
+The AOA is implemented first; NNDM and kNNDM follow before the 0.1.0 release.
 
 ## Development
 
@@ -53,10 +55,11 @@ Contributions are welcome: see [CONTRIBUTING.md](CONTRIBUTING.md).
   https://doi.org/10.1111/2041-210X.13650
 - Milà, C., Mateu, J., Pebesma, E., & Meyer, H. (2022). Nearest neighbour distance
   matching leave-one-out cross-validation for map validation. *Methods in Ecology
-  and Evolution*. https://doi.org/10.1111/2041-210X.13851
+  and Evolution*, 13(6), 1304-1316. https://doi.org/10.1111/2041-210X.13851
 - Linnenbrink, J., Milà, C., Ludwig, M., & Meyer, H. (2024). kNNDM CV: k-fold
   nearest-neighbour distance matching cross-validation for map accuracy
-  estimation. Preprint: https://doi.org/10.5194/egusphere-2023-1308
+  estimation. *Geoscientific Model Development*, 17(15), 5897-5912.
+  https://doi.org/10.5194/gmd-17-5897-2024
 
 ## License
 

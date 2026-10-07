@@ -1,7 +1,7 @@
 """Dissimilarity index (DI) and area of applicability (AOA) of prediction models.
 
-Planned for version 0.2.0. Reference implementations: ``CAST::trainDI`` and
-``CAST::aoa`` (R).
+Planned for version 0.1.0; local data point density (LPD) follows in 0.2.0.
+Reference implementations: ``CAST::trainDI`` and ``CAST::aoa`` (R).
 
 References
 ----------

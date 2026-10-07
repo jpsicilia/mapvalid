@@ -6,5 +6,5 @@ References
 ----------
 Milà, C., Mateu, J., Pebesma, E., & Meyer, H. (2022). Nearest neighbour distance
 matching leave-one-out cross-validation for map validation. Methods in Ecology
-and Evolution. https://doi.org/10.1111/2041-210X.13851
+and Evolution, 13(6), 1304-1316. https://doi.org/10.1111/2041-210X.13851
 """
